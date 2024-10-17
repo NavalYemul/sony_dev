@@ -10,3 +10,8 @@ input_path="/Volumes/ny_databricks/default/raw/"
 def add_ingestion(df):
     df1=df.withColumn("ingestion_date",current_timestamp())
     return df1
+
+
+add new function
+def add_path(df):
+    
